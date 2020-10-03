@@ -1,0 +1,77 @@
+.card{
+  background-color: white;
+  margin:30px 50px;
+}
+
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.img {
+  margin:0px 50px;
+}
+
+.fundName {
+  font-size: 30px;
+}
+
+.greaterThan {
+  font-size: 50px;
+  margin-right:100px;
+  text-align: right;
+  color: darkgrey;
+  padding-top: 50px ;
+}
+
+.btnBottom {
+  font-size: 25px;
+}
+
+
+.showPerform {
+  background-color: rgb(241, 240, 240);
+  padding:10px 40px;
+  color: rgb(90, 84, 84);
+}
+.investNow {
+  background-color: #5095fc;
+  color: white;
+  padding:10px 40px;
+}
+
+.fundType {
+  margin-top:20px;
+  color: rgb(62, 80, 80);
+  font-size: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.pagination {
+  text-align: center;
+  margin: 50px 0px;
+  font-size: 25px;
+  padding: 50px 0px;
+}
+
+.pagination button {
+  padding:0px 15px;
+  border-radius: 15%;
+  margin-right: 10px;
+}
+
+.activePage {
+ color: white;
+ background-color: hsl(241, 91%, 50%);
+}
+.normalPage {
+  color: black;
+  background-color: white;
+}
